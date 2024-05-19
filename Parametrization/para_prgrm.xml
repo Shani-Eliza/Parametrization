@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  <parameter name="search value1" value="Selenium"></parameter>
+	  <parameter name="search value2" value="Car"></parameter>
+	  <parameter name="search value3" value="Bike"></parameter>
+	  <classes>
+      <class name="TestNG.Parameter_prgrm"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
